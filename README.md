@@ -13,18 +13,29 @@ Research the following term and summarize your findings on it two to three sente
 
 * `higher-order function`
 
+"Higher order functions are functions that operate over other fucntions. Whether it's to take other functions as arguments or returning them.  HOF allows us to abstract over actions, therefore, we don't have to create new functions over and over again.  We can implement functions within functions, create functions using functions, and replace functions with functions."
+
 
 Pretending we implemented the following methods, update this README with a description of each of the following and an example you've created:
 
 
 * `max`
-* `min`
-* `each`
-* `map`
-* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
-* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
-* `reject`: [note](http://underscorejs.org/#reject)
+	max will be a HOF that selects the highest value in an array.
 
+* `min`
+	min will be a HOF that selects the lowest value in an array.
+* `each`
+	each will be a HOF that applies a certain function to each of the elements of the variable. 
+* `map`
+
+* `filter`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
+	filter will be a HOF that only selects a certain element will it's met a certain condition.
+
+* `reduce`: [note](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce)
+	reduce will be a HOF that reduces the values or elements.
+
+* `reject`: [note](http://underscorejs.org/#reject)
+	reject will be a HOF that rejects a certain condition of the elements.
 Use the notes provided to help guide you explanation.
 
 
